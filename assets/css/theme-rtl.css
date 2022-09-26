@@ -16,12 +16,12 @@
   --ensurance-yellow: #D7AE20;
   --ensurance-green: #3DBB59;
   --ensurance-teal: #20c997;
-  --ensurance-cyan: #5EDCD4;
+  --ensurance-cyan: #000;
   --ensurance-white: #fff;
   --ensurance-gray: #627E84;
   --ensurance-gray-dark: #536468;
   --ensurance-gray-black: #000;
-  --ensurance-gray-100: #DBE4E7;
+  --ensurance-gray-100: #000;
   --ensurance-gray-200: #CDD8DA;
   --ensurance-gray-300: #B5CACE;
   --ensurance-gray-400: #93AFB6;
@@ -86,7 +86,7 @@
   --ensurance-black: #000;
   /* ------------------------------ Colored Link ------------------------------ */
   --ensurance-colored-link-black-hover-color: black;
-  --ensurance-100: #DBE4E7;
+  --ensurance-100: #000;
   /* ------------------------------ Colored Link ------------------------------ */
   --ensurance-colored-link-100-hover-color: #e2e9ec;
   --ensurance-200: #CDD8DA;
@@ -443,7 +443,7 @@
   --ensurance-popover-box-shadow: var(--ensurance-box-shadow);
   --ensurance-popover-header-bg: #f0f0f0;
   --ensurance-popover-header-border-bottom-color: #d6d6d6;
-  --ensurance-popover-header-color: var(--ensurance-headings-color);
+  --ensurance-popover-header-color: #fff;
   --ensurance-popover-body-color: #5B7075;
   --ensurance-popover-arrow-color: #fff;
   --ensurance-popover-arrow-outer-color: rgba(0, 0, 0, 0.25);
@@ -672,7 +672,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 700;
   line-height: 1.2;
-  color: var(--ensurance-headings-color);
+  color: #fff;
 }
 
 h1, .h1 {
@@ -802,7 +802,7 @@ sup {
 }
 
 a {
-  color: #5EDCD4;
+  color: #000;
   text-decoration: none;
 }
 a:hover {
@@ -19832,8 +19832,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background-color: #222222;
-  background-image: url("../img/building.png");
+  background-color: #4267B2;
+
 }
 
 pre,

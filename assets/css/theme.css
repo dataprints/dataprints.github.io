@@ -19855,8 +19855,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
-  background-color: #222222;
-  background-image: url("../img/building.png");
+  background-color: #4267B2;
 }
 
 pre,
