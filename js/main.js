@@ -10,38 +10,48 @@
         }, 1);
     };
     spinner(0);
+    
+    
+    // Initiate the wowjs
+    new WOW().init();
 
 
     // Fixed Navbar
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 300) {
-            $('.fixed-top .container').addClass('shadow-sm').css('max-width', '100%');
+        if ($(window).width() < 992) {
+            if ($(this).scrollTop() > 45) {
+                $('.fixed-top').addClass('bg-white shadow');
+            } else {
+                $('.fixed-top').removeClass('bg-white shadow');
+            }
         } else {
-            $('.fixed-top .container').removeClass('shadow-sm').css('max-width', '85%');
+            if ($(this).scrollTop() > 45) {
+                $('.fixed-top').addClass('bg-white shadow').css('top', -45);
+            } else {
+                $('.fixed-top').removeClass('bg-white shadow').css('top', 0);
+            }
         }
     });
-
-
-    // Donation
-    $('.progress').waypoint(function () {
-        $('.progress-bar').each(function () {
-            $(this).css("width", $(this).attr("aria-valuenow") + '%');
-        });
-    }, {offset: '80%'});
-
-
-    // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
-        delay: 5,
-        time: 2000
+    
+    
+   // Back to top button
+   $(window).scroll(function () {
+    if ($(this).scrollTop() > 300) {
+        $('.back-to-top').fadeIn('slow');
+    } else {
+        $('.back-to-top').fadeOut('slow');
+    }
+    });
+    $('.back-to-top').click(function () {
+        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+        return false;
     });
 
 
-    // Event carousel
-    $(".event-carousel").owlCarousel({
+    // Testimonial carousel
+    $(".testimonial-carousel").owlCarousel({
         autoplay: true,
-        smartSpeed: 1000,
-        center: false,
+        smartSpeed: 1500,
         dots: false,
         loop: true,
         margin: 25,
@@ -50,7 +60,6 @@
             '<i class="bi bi-arrow-left"></i>',
             '<i class="bi bi-arrow-right"></i>'
         ],
-        responsiveClass: true,
         responsive: {
             0:{
                 items:1
@@ -66,21 +75,6 @@
             }
         }
     });
-
-    
-   // Back to top button
-   $(window).scroll(function () {
-    if ($(this).scrollTop() > 300) {
-        $('.back-to-top').fadeIn('slow');
-    } else {
-        $('.back-to-top').fadeOut('slow');
-    }
-    });
-    $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
-        return false;
-    });
-
 
 })(jQuery);
 

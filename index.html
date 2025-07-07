@@ -11,22 +11,24 @@
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
 
         <!-- Icon Font Stylesheet -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
         <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
         <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
 
         <!-- Customized Bootstrap Stylesheet -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
+        
+
     </head>
 
     <body>
@@ -38,135 +40,103 @@
         <!-- Spinner End -->
 
 
-        <!-- Navbar start -->
-        <div class="container-fluid fixed-top px-0">
-            <div class="container px-0">
-                <div class="topbar">
-                    <div class="row align-items-center justify-content-center">
-                        <div class="col-md-8">
-                            <div class="topbar-info d-flex flex-wrap">
-                                <a href="verowgdecug@gmail.com" class="text-light me-4"><i class="fas fa-envelope text-white me-2"></i>verowgdecug@gmail.com</a>
-                                <a href="+256-7723-74961" class="text-light"><i class="fas fa-phone-alt text-white me-2"></i>+256-7723-74961</a> &nbsp;&nbsp;
-                                <a href="+256-7850-30805" class="text-light"><i class="fas fa-phone-alt text-white me-2"></i>+256-7850-30805</a>
+        <!-- Topbar start -->
+        <div class="container-fluid fixed-top">
+            <div class="container topbar d-none d-lg-block">
+                <div class="topbar-inner">
+                    <div class="row gx-0">
+                        <div class="col-lg-7 text-start">
+                            <div class="h-100 d-inline-flex align-items-center me-4">
+                                <span class="fa fa-phone-alt me-2 text-dark"></span>
+                                <a href="+256-7723-74961" class="text-secondary"><span>+256-7723-74961</span></a>&nbsp;&nbsp;
+                                <a href="+256-7850-30805" class="text-secondary"><span>+256-7850-30805</span></a>
+                            </div>
+                            <div class="h-100 d-inline-flex align-items-center">
+                                <span class="far fa-envelope me-2 text-dark"></span>
+                                <a href="verowgdecug@gmail.com" class="text-secondary"><span>verowgdecug@gmail.com</span></a>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="topbar-icon d-flex align-items-center justify-content-end">
-                                <a href="https://www.facebook.com/ddembelyabato/" class="btn-square text-white me-2"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" class="btn-square text-white me-2"><i class="fab fa-twitter"></i></a>
-                                <a href="#" class="btn-square text-white me-2"><i class="fab fa-instagram"></i></a>
-                                <a href="#" class="btn-square text-white me-2"><i class="fab fa-pinterest"></i></a>
-                                <a href="#" class="btn-square text-white me-0"><i class="fab fa-linkedin-in"></i></a>
+                        <div class="col-lg-5 text-end">
+                            <div class="h-100 d-inline-flex align-items-center">
+                                <span class="text-body">Follow Us:</span>
+                                <a class="text-dark px-2" href="https://www.facebook.com/ddembelyabato/"><i class="fab fa-facebook-f"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <nav class="navbar navbar-light bg-light navbar-expand-xl">
-                    <a href="index.html" class="navbar-brand ms-3">
-                        <h1 class="text-primary display-5">VEROWGDEC</h1>
+            </div>
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg py-3">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="mb-0">VEROWGDEC<span class="text-primary"></span> </h1>
                     </a>
-                    <button class="navbar-toggler py-2 px-3 me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="fa fa-bars text-primary"></span>
                     </button>
-                    <div class="collapse navbar-collapse bg-light" id="navbarCollapse">
-                        <div class="navbar-nav ms-auto">
+                    <div class="collapse navbar-collapse bg-white" id="navbarCollapse">
+                        <div class="navbar-nav ms-lg-auto mx-xl-auto">
                             <a href="index.html" class="nav-item nav-link active">Home</a>
                             <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="what.html" class="nav-item nav-link">Works</a>
-                            <a href="Volunteers.html" class="nav-item nav-link">Volunteer</a>
+                            <a href="activity.html" class="nav-item nav-link">What We Do</a>
+                            <a href="event.html" class="nav-item nav-link">Volunteer</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Projects</a>
-                                <div class="dropdown-menu m-0 bg-secondary rounded-0">
-                                    <a href="Water Access.html" class="dropdown-item">Water Access</a>
-                                    <a href="Kitchen Repair.html" class="dropdown-item">Kitchen Repair</a>
-                                    <a href="Scholarship.html" class="dropdown-item">Scholarship</a>
-                                    <a href="Food Assistance.html" class="dropdown-item">Food Assitance</a>
+                                <div class="dropdown-menu m-0 rounded-0">
+                                    <a href="blog.html" class="dropdown-item">Water Access</a>
+                                    <a href="team.html" class="dropdown-item">Kitchen Repair</a>
+                                    <a href="testimonial.html" class="dropdown-item">Scholarship</a>
+                                    <a href="404.html" class="dropdown-item">Food Assitance</a>
                                 </div>
                             </div>
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                         </div>
-                        <div class="d-flex align-items-center flex-nowrap pt-xl-0" style="margin-left: 15px;">
-                            <a href="Donate.html" class="btn-hover-bg btn btn-primary text-white py-2 px-4 me-3">Donate Now</a>
-                        </div>
+                        <a href="sermon.html" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block">Donate</a>
                     </div>
                 </nav>
             </div>
         </div>
-        <!-- Navbar End -->
+        <!-- Topbar End -->
 
-        
-       <!-- Carousel Start -->
-        <div class="container-fluid carousel-header vh-100 px-0">
-            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
-                        <img src="img3/education.png" class="img-fluid" alt="Image">
-                        <div class="carousel-caption">
-                            <div class="p-3" style="max-width: 900px;">
-                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">​Be the catalyst for</h4>
-                                <h1 class="display-1 text-capitalize text-white mb-4">education and hope</h1>
-                                <p class="mb-5 fs-5">In Uganda, over 1.7 million children have lost one or both parents, with countless left to fend for themselves in poverty and despair.
-                                </p>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="about.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img3/meal.jpeg" class="img-fluid" alt="Image">
-                        <div class="carousel-caption">
-                            <div class="p-3" style="max-width: 900px;">
-                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">​Help us ensure every child has </h4>
-                                <h1 class="display-1 text-capitalize text-white mb-4">access to a meal</h1>
-                                <p class="mb-5 fs-5">According to research, in Uganda 56% of children lack access to basic services, and 36% work by the age of 14 leading to child labor.
-                                </p>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="about.html">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img3/football.jpeg" class="img-fluid" alt="Image">
-                        <div class="carousel-caption">
-                            <div class="p-3" style="max-width: 900px;">
-                                <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">​Your gift today will provide</h4>
-                                <h1 class="display-1 text-capitalize text-white mb-4">life‑saving resources</h1>
-                                <p class="mb-5 fs-5">1 in 5 Ugandans live in extreme poverty, and 3.5 million fall below the food poverty line and are prone to diseases like HIV/AIDS (5.8% adult prevalence), cholera (11,000 cases/year) & typhoid.
-                                </p>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-3 px-5" href="about.html">Read More</a>
-                                </div>
-                            </div>
+        <!-- Hero Start -->
+        <div class="container-fluid hero-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="hero-header-inner animated zoomIn">
+                            <h5 class="display-1 mb-5 text-dark">​Help Us Ensure every Child Has Access To a Meal</h5>
+                            <p class="mb-5 fs-5">
+                                <h6>In Uganda 56% of children lack access to basic services, and 36% work by the age of 14 leading to child labor.</h6>
+                            </p>
+                            <a href="about.html" class="btn btn-primary py-3 px-5">Read More</a>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
-        <!-- Carousel End -->
+        <!-- Hero End -->
 
-        <!-- Causes Start -->
-        <div class="container-fluid causes py-5">
+
+        <!-- About Satrt -->
+        <div class="container-fluid about py-5">
             <div class="container py-5">
-                <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                    <h5 class="text-uppercase text-primary">Every Child Deserves a Tomorrow
-                    </h5>
-                    <h1 class="mb-4">Give Hope Today, Spread Love</h1>
-                    <p class="mb-0">
+                <div class="row g-5 mb-5">
+                    <div class="col-xl-6">
+                        <div class="row g-4">
+                            <div class="col-6">
+                                <img src="img3/meals.jpeg" class="img-fluid h-100 wow zoomIn" data-wow-delay="0.1s" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img src="img3/water-fetching.png" class="img-fluid pb-3 wow zoomIn" data-wow-delay="0.1s" alt="">
+                                <img src="img3/praying.jpeg" class="img-fluid pt-3 wow zoomIn" data-wow-delay="0.1s" alt="">
+                                <img src="img3/education.png" class="img-fluid pt-3 wow zoomIn" data-wow-delay="0.1s" alt="">
+                                <img src="img3/childClass.jpeg" class="img-fluid pt-3 wow zoomIn" data-wow-delay="0.1s" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeIn" data-wow-delay="0.5s">
+                        <p class="fs-5 text-uppercase text-primary">Every Child Deserves a Tomorrow</p>
+                        <h1 class="display-5 pb-4 m-0">Give Hope Today, Spread Love</h1>
+                    <p>
                         In Uganda, the loss of a parent can shatter a child’s world leaving thousands alone, hungry, and forgotten. 
                         However, at <strong>Ddembelyabato</strong> Orphanage School <strong>under VEROWGDEC</strong>, a beacon of hope shines through the darkness. 
                         1 in 5 Ugandans live in extreme poverty, and 3.5 million fall below the food poverty line leaving them prone to 
@@ -180,30 +150,40 @@
                         <br><br><a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="about.html">Read More</a>
                     </p>
                 </div>
-                </div>
-            </div>
-        </div>
-        <!-- Causes End -->
 
-
-        <!-- About Start -->
-        <div class="container-fluid about  py-5">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-xl-5">
-                        <div class="h-70">
-                            <img src="img3/water-fetching.png" class="img-fluid w-100 h-100" alt="Image">
+                <div class="container-fluid about  py-5">
+                    <div class="container py-5">
+                        <div class="row g-5">
+                            <div class="col-xl-5">
+                                <div class="h-70">
+                                    <img src="img3/water-fetching.png" class="img-fluid w-100 h-100" alt="Image">
+                                </div>
+                            </div>
+                            <div class="col-xl-7">
+                                <h5 class="text-uppercase text-primary">Meet Fortunate & Benard</h5>
+                                <p class="fs-6 mb-4">
+                                    At 4 years, Fortunate & Benard became orphans. They scavenged for food, wore tattered clothes, and attended no school until Ddembelyabato Orphanage School welcomed them into a safe haven of worship, nutritious meals, education, and love.
+                                    Now, 82 children wake to worship songs, reading the Bible, enjoy nourishing meals, and receive quality education in a faith-filled environment.
+                                    <br><br>“When I held these frightened children in my arms, I vowed that no one in our care would ever feel invisible again.”
+                                    <br><strong>Christine Ayesiza, Founder</strong>
+                                </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-xl-7">
-                        <h5 class="text-uppercase text-primary">Meet Fortunate & Benard</h5>
-                        <p class="fs-6 mb-4">
-                            At 4 years, Fortunate & Benard became orphans. They scavenged for food, wore tattered clothes, and attended no school until Ddembelyabato Orphanage School welcomed them into a safe haven of worship, nutritious meals, education, and love.
-                            Now, 82 children wake to worship songs, reading the Bible, enjoy nourishing meals, and receive quality education in a faith-filled environment.
-                            <br><br>“When I held these frightened children in my arms, I vowed that no one in our care would ever feel invisible again.”
-                            <br><strong>Christine Ayesiza, Founder</strong>
-                        </p>
-                            </div>
+                </div>                
+
+                <div class="container text-center bg-primary py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-2">
+                            <i class="fa fa-hands fa-5x text-white"></i>
+                        </div>
+                        <div class="col-lg-7 text-center text-lg-start">
+                            <h1 class="mb-0">1 in 5 Ugandans live in extreme poverty, and 3.5 million fall below the food poverty line and are prone to diseases like HIV/AIDS (5.8% adult prevalence), cholera (11,000 cases/year) & typhoid...</h1>
+                        </div>
+                        <div class="col-lg-3">
+                            <a href="about.html" class="btn btn-light py-2 px-4">Learn More</a>
                         </div>
                     </div>
                 </div>
@@ -212,19 +192,19 @@
         <!-- About End -->
 
 
-        <!-- Services Start -->
-        <div class="container-fluid service py-5 bg-light">
+        <!-- Activities Start -->
+        <div class="container-fluid activities py-5">
             <div class="container py-5">
-                <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                    <h5 class="text-uppercase text-primary">What we do at Ddembelyabato</h5>
-                    <h1 class="mb-0">How We Spread Love</h1>
+                <div class="mx-auto text-center mb-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+                    <p class="fs-5 text-uppercase text-primary">What we do at Ddembelyabato</p>
+                    <h1 class="display-3">How We Spread Love</h1>
                 </div>
                 <div class="row g-4">
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="service-item">
                             <img src="img3/image1.jpeg" class="img-fluid w-100" alt="Image">
                             <div class="service-link">
-                                <a href="what.html" class="h4 mb-0">Sharing a meal</a>
+                                <a href="activity.html" class="h4 mb-0">Sharing a meal</a>
                             </div>
                         </div>
                         <p class="my-4">We spread love through sharing a meal in equal propotions amidst...
@@ -234,7 +214,7 @@
                         <div class="service-item">
                             <img src="img3/education.jpeg" class="img-fluid w-100" alt="Image">
                             <div class="service-link">
-                                <a href="what.html" class="h4 mb-0"> Free Education</a>
+                                <a href="activity.html" class="h4 mb-0"> Free Education</a>
                             </div>
                         </div>
                         <p class="my-4">We provide 100% free education to all the 82 orphaned children...
@@ -244,7 +224,7 @@
                         <div class="service-item">
                             <img src="img3/church-pastor.jpeg" class="img-fluid w-100" alt="Image">
                             <div class="service-link">
-                                <a href="what.html" class="h4 mb-0">Spritual Guidance</a>
+                                <a href="activity.html" class="h4 mb-0">Spritual Guidance</a>
                             </div>
                         </div>
                         <p class="my-4">We offer Spritual guidance through encouraging children to read...
@@ -254,22 +234,50 @@
                         <div class="service-item">
                             <img src="img3/child.jpeg" class="img-fluid w-100" alt="Image">
                             <div class="service-link">
-                                <a href="what.html" class="h4 mb-0">Free Shelter</a>
+                                <a href="activity.html" class="h4 mb-0">Free Shelter</a>
                             </div>
                         </div>
                         <p class="my-4">We provide free shelter or housing to the orphaned children living...
                         </p>
                     </div>
                     <div class="col-12">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="what.html">Read More</a>
+                    </div>                
+
+                <div class="row g-4">
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.1s">
+                            <i class="fa fa-book fa-4x text-dark"></i>
+                            <div class="ms-4">
+                                <h4>Foundation</h4>
+                                <p class="mb-4">Ddembelyabato orphanage project was built from the core principles of fearing God...</p>
+                                <a href="about.html" class="btn btn-primary px-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.3s">
+                            <i class="fa fa-book-open fa-4x text-dark"></i>
+                            <div class="ms-4">
+                                <h4>Our Mission</h4>
+                                <p class="mb-4">Our mission is to impact the lives of orphaned children (Boys and Girls) primarily...</p>
+                                <a href="about.html" class="btn btn-primary px-3">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <div class="activities-item p-4 wow fadeIn" data-wow-delay="0.5s">
+                            <i class="fa fa-hands fa-4x text-dark"></i>
+                            <div class="ms-4">
+                                <h4>Our Impact</h4>
+                                <p class="mb-4">Since our establishment, with the help and donations of various groups of people...</p>
+                                <a href="about.html" class="btn btn-primary px-3">Read More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Services End -->
-
+        <!-- Activities Start -->
 
         <!-- Donation Start -->
         <div class="container-fluid donation py-5">
@@ -283,11 +291,11 @@
                         <div class="donation-item">
                             <img src="img3/child-meal.jpeg" class="img-fluid w-100" alt="Image">
                             <div class="donation-content d-flex flex-column">
-                                <a href="#" class="btn-hover-color display-6 text-white">Help Us More</a>
+                                <a href="sermon.html" class="btn-hover-color display-6 text-white">Help Us More</a>
                                 <h4 class="text-white mb-4">Food Access</h4>
                                 <p class="text-white mb-4">Your donation will enable more vulnerable children in the community to gain access to a free balanced diet meal.</p>
                                 <div class="donation-btn d-flex align-items-center justify-content-start">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="Donate.html">Donate Now</a>
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="sermon.html">Donate Now</a>
                                 </div>
                             </div>
                         </div>
@@ -296,11 +304,11 @@
                         <div class="donation-item">
                             <img src="img3/donation1.jpeg" class="img-fluid w-100" alt="Image">
                             <div class="donation-content d-flex flex-column">
-                                <a href="#" class="btn-hover-color display-6 text-white">Help Us More</a>
+                                <a href="sermon.html" class="btn-hover-color display-6 text-white">Help Us More</a>
                                 <h4 class="text-white mb-4">Education Access</h4>
                                 <p class="text-white mb-4">Your donation rich in education materials like text books, pens, pencils will greatly improve the education of orphaned children.</p>
                                 <div class="donation-btn d-flex align-items-center justify-content-start">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="Donate.html">Donate Now</a>
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="sermon.html">Donate Now</a>
                                 </div>
                             </div>
                         </div>
@@ -309,11 +317,11 @@
                         <div class="donation-item">
                             <img src="img3/donation2.jpeg" class="img-fluid w-100" alt="Image">
                             <div class="donation-content d-flex flex-column">
-                                <a href="#" class="btn-hover-color display-6 text-white">Help Us More</a>
+                                <a href="sermon.html" class="btn-hover-color display-6 text-white">Help Us More</a>
                                 <h4 class="text-white mb-4">Clothing & Shelter Expansion</h4>
                                 <p class="text-white mb-4">Impact a child's life today by donating clothing and construction material to modernise our shelter or housing facilities.</p>
                                 <div class="donation-btn d-flex align-items-center justify-content-start">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="Donate.html">Donate Now</a>
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="sermon.html">Donate Now</a>
                                 </div>
                             </div>
                         </div>
@@ -324,7 +332,6 @@
             </div>
         </div>
         <!-- Donation End -->
-
 
         <!-- Counter Start -->
         <div class="container-fluid counter py-5" style="background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.4)), url(img/volunteers-bg.jpg) center center; background-size: cover;">
@@ -395,9 +402,6 @@
                 <div class="col-lg-4">
                     <div class="gallery-item">
                         <img src="img3/tank-bill.jpeg" class="img-fluid w-100" alt="">
-                        <div class="search-icon">
-                            <a href="img3/tank-bill.jpeg" data-lightbox="gallery-2" class="my-auto"><i class="fas fa-search-plus btn-hover-color bg-white text-primary p-3"></i></a>
-                        </div>
                         <div class="gallery-content">
                             <div class="gallery-inner pb-5">
                                 <a href="#" class="h4 text-white">Water Tank Installation</a>
@@ -407,9 +411,6 @@
                     </div>
                     <div class="gallery-item">
                         <img src="img3/Bill-Food.jpeg" class="img-fluid w-100" alt="">
-                        <div class="search-icon">
-                            <a href="img3/Bill-Food.jpeg" data-lightbox="gallery-3" class="my-auto"><i class="fas fa-search-plus btn-hover-color bg-white text-primary p-3"></i></a>
-                        </div>
                         <div class="gallery-content">
                             <div class="gallery-inner pb-5">
                                 <a href="#" class="h4 text-white">Lunch Time</a>
@@ -421,9 +422,6 @@
                 <div class="col-lg-4">
                     <div class="gallery-item">
                         <img src="img3/meals.jpeg" class="img-fluid w-100" alt="">
-                        <div class="search-icon">
-                            <a href="img3/meals.jpeg" data-lightbox="gallery-1" class="my-auto"><i class="fas fa-search-plus btn-hover-color bg-white text-primary p-3"></i></a>
-                        </div>
                         <div class="gallery-content">
                             <div class="gallery-inner pb-5">
                                 <a href="#" class="h4 text-white">Fruits Sharing</a>
@@ -435,9 +433,6 @@
                 <div class="col-lg-4">
                     <div class="gallery-item">
                         <img src="img3/praying.jpeg" class="img-fluid w-100" alt="">
-                        <div class="search-icon">
-                            <a href="img3/praying.jpeg" data-lightbox="gallery-4" class="my-auto"><i class="fas fa-search-plus btn-hover-color bg-white text-primary p-3"></i></a>
-                        </div>
                         <div class="gallery-content">
                             <div class="gallery-inner pb-5">
                                 <a href="#" class="h4 text-white">Church Time</a>
@@ -447,9 +442,6 @@
                     </div>
                     <div class="gallery-item">
                         <img src="img3/group.jpeg" class="img-fluid w-100" alt="">
-                        <div class="search-icon">
-                            <a href="img3/group.jpeg" data-lightbox="gallery-5" class="my-auto"><i class="fas fa-search-plus btn-hover-color bg-white text-primary p-3"></i></a>
-                        </div>
                         <div class="gallery-content">
                             <div class="gallery-inner pb-5">
                                 <a href="#" class="h4 text-white">Water Tank Purchase</a>
@@ -479,18 +471,13 @@
                                     <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $520</small>
                                 </div>
                                 <div class="causes-dination p-2">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="#">Completed Project</a>
-                                </div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                    <span>100%</span>
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="blog.html">Completed Project</a>
                                 </div>
                             </div>
                             <div class="causes-content p-4">
                                 <h4 class="mb-3">Water Access</h4>
                                 <p class="mb-4">In Uganda, access to clean and safe water remains a significant challenge, particularly in rural areas...</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="Water Access.html">Read More</a>
+                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="blog.html">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -503,18 +490,13 @@
                                     <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $1,232</small>
                                 </div>
                                 <div class="causes-dination p-2">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="">Undergoing Construction</a>
-                                </div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-                                    <span>100%</span>
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="team.html">Construction in Progress</a>
                                 </div>
                             </div>
                             <div class="causes-content p-4">
                                 <h4 class="mb-3">Kitchen Repair</h4>
                                 <p class="mb-4">The Ddembelyabato School kitchen currently suffers from cracked tiles, inadequate heat...</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="Kitchen Repair.html">Read More</a>
+                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="team.html">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -527,18 +509,13 @@
                                     <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $375</small>
                                 </div>
                                 <div class="causes-dination p-2">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="#">Ongoing Project</a>
-                                </div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">
-                                    <span>8%</span>
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="testimonial.html">Ongoing Project</a>
                                 </div>
                             </div>
                             <div class="causes-content p-4">
                                 <h4 class="mb-3">Scholarship</h4>
                                 <p class="mb-4">Ddembelyabato School currently educates 82 orphaned children at the primary level but lacks the...</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="Scholarship.html">Read More</a>
+                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="testimonial.html">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -551,18 +528,13 @@
                                     <small class="text-white"><i class="fa fa-thumbs-up text-primary me-2"></i>Raised: $1600</small>
                                 </div>
                                 <div class="causes-dination p-2">
-                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="#">Ongoing Project</a>
-                                </div>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="16" aria-valuemin="0" aria-valuemax="100">
-                                    <span>16%</span>
+                                    <a class="btn-hover-bg btn btn-primary text-white py-2 px-3" href="404.html">Ongoing Project</a>
                                 </div>
                             </div>
                             <div class="causes-content p-4">
                                 <h4 class="mb-3">Food Assistance</h4>
                                 <p class="mb-4">Consistent provision of nutritious meals to orphaned children is one of our most pressing challenge...</p>
-                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="Food Assistance.html">Read More</a>
+                                <a class="btn-hover-bg btn btn-primary text-white py-2 px-4" href="404.html">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -614,114 +586,142 @@
                 </div>
             </div>
         </div>
-        <!-- Volunteers End -->
+        <!-- Volunteers End -->        
 
-        <!-- Footer Start -->
-        <div class="container-fluid footer bg-dark text-body py-5">
+
+        <!-- Team Start -->
+        <div class="container-fluid team py-5">
             <div class="container py-5">
+                <div class="text-center mx-auto mb-5 wow fadeIn" data-wow-delay="0.1s" style="max-width: 700px;">
+                    <h1 class="display-3">Meet Our Team</h1>
+                </div>
                 <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item">
-                            <h4 class="mb-4 text-white">Luke 18:16</h4>
-                            <p class="mb-4">Let the little children come to me and do not hinder them, for the Kingdom of God belongs to such as these.</p>
+                    <div class="col-lg-4 col-xl-5">
+                        <div class="team-img wow zoomIn" data-wow-delay="0.1s">
+                            <img src="img3/christine.png" class="img-fluid" alt="">
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Quick Access</h4>
-                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
-                            <a href="what.html"><i class="fas fa-angle-right me-2"></i> Works</a>
-                            <a href="Volunteers.html"><i class="fas fa-angle-right me-2"></i> Volunteer</a>
-                            <a href="Donate.html"><i class="fas fa-angle-right me-2"></i> Donate</a>
+                    <div class="col-lg-8 col-xl-7">
+                        <div class="team-item wow fadeIn" data-wow-delay="0.1s">
+                            <h1>CHRISTINE AYESIZA</h1>
+                            <h5 class="fw-normal fst-italic text-primary mb-4">Founder of VEROWGDEC</h5>
+                            <p class="mb-4">
+                                I great you in the name of our Lord and savior, Jesus Christ.
+                                I have a very painful background full of lots of pain and tears.
+                                At a very young age, I was forced to drop out of school due to finacial struggles and got subjected to child labor for 5 years in Jinja District, Uganda..
+                                <a href="about.html">Read More</a>
+                            </p>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Contact Us</h4>
-                            <a href="verowgdecug@gmail.com"><i class="fas fa-angle-right me-2"></i> verowgdecug@gmail.com</a>
-                            <a href="+256-7723-74961"><i class="fas fa-angle-right me-2"></i> +256-7723-74961</a>
-                            <a href="+256-7850-30805"><i class="fas fa-angle-right me-2"></i> +256-7850-30805</a>
-                            <a href="+256-7824-47217"><i class="fas fa-angle-right me-2"></i> +256-7824-47217</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item">
-                            <h4 class="mb-4 text-white">Spread Love Today</h4>
-                            <div class="row g-2">
-                                <div class="col-4">
-                                    <div class="footer-gallery">
-                                        <img src="img3/child-meal.jpeg" class="img-fluid w-100" alt="">
-                                        <div class="footer-search-icon">
-                                            <a href="img3/child-meal.jpeg" data-lightbox="footerGallery-1" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="team-item wow zoomIn" data-wow-delay="0.2s">
+                                    <img src="img3/sean2.png" class="img-fluid w-100" alt="">
+                                    <div class="team-content text-dark text-center py-3">
+                                        <div class="team-content-inner">
+                                            <h5 class="mb-0">SEAN KAMUGASA</h5>
+                                            <p class="text-dark">Projects Manager</p>
                                         </div>
                                     </div>
-                               </div>
-                               <div class="col-4">
-                                    <div class="footer-gallery">
-                                        <img src="img3/dancing.jpeg" class="img-fluid w-100" alt="">
-                                        <div class="footer-search-icon">
-                                            <a href="img3/dancing.jpeg" data-lightbox="footerGallery-2" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="team-item wow zoomIn" data-wow-delay="0.4s">
+                                    <img src="img3/oliver.png" class="img-fluid w-100" alt="">
+                                    <div class="team-content text-dark text-center py-3">
+                                        <div class="team-content-inner">
+                                            <h5 class="mb-0">OLIVER ABWOOLI</h5>
+                                            <p class="text-dark">Treasurer</p>
                                         </div>
                                     </div>
-                               </div>
-                                <div class="col-4">
-                                    <div class="footer-gallery">
-                                        <img src="img3/donation2.jpeg" class="img-fluid w-100" alt="">
-                                        <div class="footer-search-icon">
-                                            <a href="img3/donation2.jpeg" data-lightbox="footerGallery-3" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="team-item wow zoomIn" data-wow-delay="0.6s">
+                                    <img src="img3/blessings.png" class="img-fluid w-100" alt="">
+                                    <div class="team-content text-dark text-center py-3">
+                                        <div class="team-content-inner">
+                                            <h5 class="mb-0">BLESSINGS CHRISTINE</h5>
+                                            <p class="text-dark">Sunday School Teacher</p>
                                         </div>
                                     </div>
-                               </div>
-                                <div class="col-4">
-                                    <div class="footer-gallery">
-                                        <img src="img3/child.jpeg" class="img-fluid w-100" alt="">
-                                        <div class="footer-search-icon">
-                                            <a href="img3/child.jpeg" data-lightbox="footerGallery-4" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
-                                        </div>
-                                    </div>
-                               </div>
-                                <div class="col-4">
-                                    <div class="footer-gallery">
-                                        <img src="img3/maize.jpeg" class="img-fluid w-100" alt="">
-                                        <div class="footer-search-icon">
-                                            <a href="img3/maize.jpeg" data-lightbox="footerGallery-5" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
-                                        </div>
-                                    </div>
-                               </div>
-                               <div class="col-4">
-									<div class="footer-gallery">
-										<img src="img3/education.jpeg" class="img-fluid w-100" alt="">
-                                        <div class="footer-search-icon">
-                                            <a href="img3/education.jpeg" data-lightbox="footerGallery-6" class="my-auto"><i class="fas fa-search-plus text-white"></i></a>
-                                        </div>
-									</div>
-								</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
+        <!-- Team End -->
 
 
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-4 text-center text-md-start mb-md-0">
-                        <span class="text-body"><a href="#"><i class="fas fa-copyright text-light me-2"></i>2025, VEROWGDEC</a>, Non Profit CBO-6828.</span>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <div class="d-flex align-items-center justify-content-center">
-                            <a href="https://www.facebook.com/ddembelyabato/" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-instagram"></i></a>
-                            <a href="#" class="btn-hover-color btn-square text-white me-2"><i class="fab fa-pinterest"></i></a>
-                            <a href="#" class="btn-hover-color btn-square text-white me-0"><i class="fab fa-linkedin-in"></i></a>
+        <!-- Footer Start -->
+        <div class="container-fluid footer pt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-4 footer-inner">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item mt-5">
+                            <h4 class="text-light mb-4">Luke<span class="text-primary"> 18:16</span></h4>
+                            <p class="mb-4 text-secondary">Let the little children come to me and do not hinder them, for the Kingdom of God belongs to such as these.<br><br></p>
+                            <a href="sermon.html" class="btn btn-primary py-2 px-4">Donate Now</a>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center text-md-end text-body">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item mt-5">
+                            <h4 class="text-light mb-4">Contact Us</h4>
+                            <div class="d-flex flex-column">
+                                <h6 class="text-secondary mb-0">Our Address</h6>
+                                <div class="d-flex align-items-center border-bottom py-4">
+                                    <span class="flex-shrink-0 btn-square bg-primary me-3 p-4"><i class="fa fa-map-marker-alt text-dark"></i></span>
+                                    <a href="" class="text-body">Kyotera, Kalisizo, UG</a>
+                                </div>
+                                <h6 class="text-secondary mt-4 mb-0">Our Mobile</h6>
+                                <div class="d-flex align-items-center py-4">
+                                    <span class="flex-shrink-0 btn-square bg-primary me-3 p-4"><i class="fa fa-phone-alt text-dark"></i></span>
+                                    <a href="+256-7723-74961" class="text-body">+256-7723-74961</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item mt-5">
+                            <h4 class="text-light mb-4">Explore Link</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a class="text-body mb-2" href="index.html"><i class="fa fa-check text-primary me-2"></i>Home</a>
+                                <a class="text-body mb-2" href="about.html"><i class="fa fa-check text-primary me-2"></i>About Us</a>
+                                <a class="text-body mb-2" href="activity.html"><i class="fa fa-check text-primary me-2"></i>What We Do</a>
+                                <a class="text-body mb-2" href="event.html"><i class="fa fa-check text-primary me-2"></i>Volunteer</a>
+                                <a class="text-body mb-2" href="contact.html"><i class="fa fa-check text-primary me-2"></i>Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item mt-5">
+                            <h4 class="text-light mb-4">Latest Sub Projects</h4>
+                            <div class="d-flex border-bottom border-secondary py-4">
+                                <img src="img3/dave tank.jpeg" width = "60" height = "60" class="img-fluid flex-shrink-0" alt="">
+                                <div class="ps-3">
+                                    <p class="mb-0 text-muted"><strong>Water Access</strong></p>
+                                    <a href="" class="text-body">In Uganda, access to clean and safe...</a>
+                                </div>
+                            </div>
+                            <div class="d-flex py-4">
+                                <img src="img3/child-meal.jpeg" width = "60" height = "50" class="img-fluid flex-shrink-0" alt="">
+                                <div class="ps-3">
+                                    <p class="mb-0 text-muted"><strong>Food Assistance</strong></p>
+                                    <a href="" class="text-body">Consistent provision of nutritious meals...</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-4">
+                <div class="border-top border-secondary pb-4"></div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">2025, VEROWGDEC</a>, Non Profit CBO-6828.
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
@@ -730,26 +730,23 @@
                 </div>
             </div>
         </div>
-        <!-- Copyright End -->
+        <!-- Footer End -->
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+        <a href="#" class="btn btn-primary border-3 border-light back-to-top"><i class="fa fa-arrow-up"></i></a>   
 
         
         <!-- JavaScript Libraries -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
         <script src="lib/easing/easing.min.js"></script>
         <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
         <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
-
     </body>
 
 </html>
